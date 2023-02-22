@@ -29,7 +29,7 @@
         <dependency>
             <groupId>com.pdftron</groupId>
             <artifactId>PDFNet</artifactId>
-            <version>9.3.0</version>
+            <version>9.5.0</version>
         </dependency>
         <!-- Spring -->
         <dependency>
@@ -67,7 +67,7 @@
                             <goal>wget</goal>
                         </goals>
                         <configuration>
-                            <url>https://www.pdftron.com/downloads/PDF2HtmlReflowParagraphsModuleLinux.tar.gz</url>
+                            <url>https://pdftron.s3.amazonaws.com/downloads/PDF2HtmlReflowParagraphsModuleLinux.tar.gz</url>
                             <followRedirects>true</followRedirects>
                             <unpack>true</unpack>
                             <sha256>6ba53952c1856464f1d5951f5974d87c4f89c730a3d05395bc8b8afce19711b5</sha256>
@@ -82,10 +82,10 @@
                             <goal>wget</goal>
                         </goals>
                         <configuration>
-                            <url>https://www.pdftron.com/downloads/StructuredOutputModuleLinux.tar.gz</url>
+                            <url>https://pdftron.s3.amazonaws.com/downloads/StructuredOutputLinux.tar.gz</url>
                             <followRedirects>true</followRedirects>
                             <unpack>true</unpack>
-                            <sha256>968a4044ec57ac40bf48f259d6be0e6f1fe48a7709e0b311ac17e4cbe85c940d</sha256>
+                            <sha256>d994084bce06d92e95ad7cabcd11eb5bcc0172ae3e835cf18f519e4f18ae768b</sha256>
                             <alwaysVerifyChecksum>true</alwaysVerifyChecksum>
                             <outputDirectory>${project.build.directory}/binaries</outputDirectory>
                         </configuration>
